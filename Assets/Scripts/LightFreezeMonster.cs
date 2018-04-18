@@ -13,6 +13,7 @@ public class LightFreezeMonster : MonoBehaviour {
     public float mouseDistanceToFreeze = 0.5f;
 	// Update is called once per frame
 	void Update () {
+        
         Vector3 mouse = new Vector3(Input.mousePosition.x,Input.mousePosition.y, 12);
         mouse = Camera.main.ScreenToWorldPoint(mouse);
         mouse.z = -0.5f;
@@ -21,23 +22,19 @@ public class LightFreezeMonster : MonoBehaviour {
         {
             MM.enabled = false;
         }
-        else
-        {
-            MM.enabled = true;
-        }
+
     }
 
-	//void OnTriggerEnter(Collider col)
-	//{ if (col.gameObject.GetComponent<FlashLightMovement>()!=null) {
-	//		MM.enabled = false;
-	//	}
-    //
-	//}
-
-	//void OnTriggerExit(Collider col)
-	//{ if (col.gameObject.GetComponent<FlashLightMovement>()!=null) {
-	//		MM.enabled = true;
-	//	}
-    //
-	//}
+    /*
+	void OnTriggerEnter(Collider col)
+	{ if (col.gameObject.GetComponent<FlashLightMovement>()!=null) {
+			MM.enabled = false;
+		}
+	}
+    */
+	void OnTriggerExit(Collider col)
+	{ if (col.gameObject.GetComponent<FlashLightMovement>()!=null) {
+			MM.enabled = true;
+		}
+	}
 }

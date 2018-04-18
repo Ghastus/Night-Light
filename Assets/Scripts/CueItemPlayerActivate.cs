@@ -13,10 +13,10 @@ public class CueItemPlayerActivate : MonoBehaviour {
 	AudioSource source;
 	bool playing;
 	bool alreadyPlayed=false;
-
 	bool TriggerActive;
 
 	public UnityEvent VoiceOverEnded;
+    public Transform player;
 
 	public void SetTriggerActive (bool val)
 	{ TriggerActive = val;
@@ -47,8 +47,8 @@ public class CueItemPlayerActivate : MonoBehaviour {
 				VoiceOverEnded.Invoke ();
 			}
 		}
-	}
-
+    }
+    
 	void OnTriggerStay(Collider col)
 	{ 
 		if (((!TriggerActive)||(playing))||(alreadyPlayed)) {
@@ -78,4 +78,5 @@ public class CueItemPlayerActivate : MonoBehaviour {
 			}
 		}
 	}
+    
 }

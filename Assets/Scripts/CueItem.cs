@@ -11,7 +11,7 @@ public class CueItem : MonoBehaviour {
 
 	public GameObject SpecialEffect;
 	public CueItemPlayerActivate CIPA; 
-	bool perminant=false;
+	bool permanent=false;
 
 	// Update is called once per frame
 	void Update () {
@@ -28,7 +28,7 @@ public class CueItem : MonoBehaviour {
 	}
 
 	void OnTriggerExit(Collider col)
-	{ if (perminant) {return;
+	{ if (permanent) {return;
 		}
 		if (col.gameObject.GetComponent<FlashLightMovement>()!=null) {
 			SpecialEffect.SetActive (false);
@@ -40,6 +40,6 @@ public class CueItem : MonoBehaviour {
 
 	public void PerminantSpecialEffects()
 	{SpecialEffect.SetActive (true);
-		perminant = true;
+		permanent = true;
 	}
 }
