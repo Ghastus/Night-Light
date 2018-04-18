@@ -12,7 +12,6 @@ public class Monster_Movement : MonoBehaviour {
 	public float chasing_speed = 0.03f;
 	private Transform movingTowards;
 	public float chaseDistance = 2f;
-	public float soundDistance = 3f;
 	private int childIndex = 0;
 
 	// Use this for initialization
@@ -25,26 +24,19 @@ public class Monster_Movement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-
+        if (wayPoint == null) {
+			return;
+		}
 		//chases player within distance
 		if (Vector3.Distance (player.position, transform.position) < chaseDistance) {
 			transform.position = Vector3.MoveTowards (transform.position, player.position, chasing_speed);
 		}
-
-		if (wayPoint == null) {
-			return;
-		}
-		//enemy pathing
-		else {
-			//plays sound within distance
-			if (Vector3.Distance (player.position, transform.position) < soundDistance) {
-
-			}
-
-			transform.position = Vector3.MoveTowards (transform.position, movingTowards.position, idle_speed);
+		else
+        {//enemy pathing
+            transform.position = Vector3.MoveTowards (transform.position, movingTowards.position, idle_speed);
 
 			//switching between wayPoints
-			if (Vector3.Distance (movingTowards.position, transform.position) < 1f) {
+			if (Vector3.Distance (movingTowards.position, transform.position) < .01f) {
 				if (childIndex == wayPoint.childCount - 1) {
 					childIndex = 0;
 				} else {

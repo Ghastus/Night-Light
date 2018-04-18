@@ -28,7 +28,7 @@ public class PlayAnimation : MonoBehaviour {
 	}
 
 	IEnumerator AnimationIterate ()
-	{while ((mat!=null)||(currentAnimation!=null)) {
+	{while ((mat!=null)&&(currentAnimation!=null)) {
 			
 				
 			mat.mainTexture = currentAnimation.frames [currentFrame];

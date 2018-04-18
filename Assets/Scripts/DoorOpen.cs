@@ -10,6 +10,9 @@ public class DoorOpen : MonoBehaviour
 	void OnTriggerEnter (Collider Player)
 	{
 		if (Player.CompareTag("Player"))
-		door.Play();
+        {
+            door.Play();
+        }
+		
 	}
 }
