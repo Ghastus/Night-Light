@@ -5,8 +5,9 @@ using UnityEngine;
 public class PlayAnimation : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		mat = GetComponent<Renderer> ().material;
+		currentAnimation = null;
 	}
 
 
@@ -28,9 +29,8 @@ public class PlayAnimation : MonoBehaviour {
 	}
 
 	IEnumerator AnimationIterate ()
-	{while ((mat!=null)&&(currentAnimation!=null)) {
-			
-				
+	{	
+		while ((mat!=null)&&(currentAnimation!=null)) {
 			mat.mainTexture = currentAnimation.frames [currentFrame];
 			yield return new WaitForSeconds (delay_time);
 			currentFrame++;

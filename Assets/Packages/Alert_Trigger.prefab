@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33000011594524242}
   - component: {fileID: 135000011218066934}
   - component: {fileID: 23000011746544654}
-  - component: {fileID: 114000011982231574}
+  - component: {fileID: 114189621360622566}
   - component: {fileID: 82000012479845928}
   m_Layer: 0
   m_Name: Alert_Trigger
@@ -37,9 +37,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012220978886}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 25.186928, y: 25.186953, z: 25.186953}
+  m_LocalScale: {x: 6.78462, y: 6.78463, z: 14.53193}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -50,7 +50,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012220978886}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -96,7 +96,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4f049da752c6547f8b1f956d9ca97ff0, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -105,10 +105,10 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 12
+  MaxDistance: 7
   Pan2D: 0
   rolloffMode: 2
-  BypassEffects: 0
+  BypassEffects: 1
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
@@ -133,8 +133,8 @@ AudioSource:
       outSlope: -0.7502999
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.6666667
-      value: 0.125
+      time: 0.589503
+      value: 0.088638306
       inSlope: -0.18757497
       outSlope: -0.18757497
       tangentMode: 0
@@ -183,7 +183,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114000011982231574
+--- !u!114 &114189621360622566
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -191,10 +191,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000012220978886}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1575044acf4a64e74a8d0c631fb0def8, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b937e21d4dfa7a468d4367012714d7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   alert: {fileID: 82000012479845928}
+  player: {fileID: 0}
+  soundDistance: 4
 --- !u!135 &135000011218066934
 SphereCollider:
   m_ObjectHideFlags: 1

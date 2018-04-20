@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class escapeReset : MonoBehaviour {
+public class title_screen_controller : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -12,8 +11,9 @@ public class escapeReset : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyUp(KeyCode.Escape))
-			{ SceneManager.LoadScene("title_screen");
-			}
+		if (Input.GetButtonUp("Submit"))
+		{ 
+			SceneManager.LoadScene ("Test1");
+		}
 	}
 }
