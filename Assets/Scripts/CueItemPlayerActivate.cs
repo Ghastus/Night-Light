@@ -60,6 +60,9 @@ public class CueItemPlayerActivate : MonoBehaviour {
 			playing = true;
 			source.Play ();
 
+            GameObject Player = GameObject.FindGameObjectWithTag("Player");
+            Player.GetComponent<PlayerPhaseTracker>().OpenFirstDoor();
+
 			GameObject[] monsters = GameObject.FindGameObjectsWithTag("Monster");
 
 			Debug.Log ("Monsters :"+monsters.Length);
@@ -67,7 +70,6 @@ public class CueItemPlayerActivate : MonoBehaviour {
 				monsters [i].GetComponent<Monster_Movement> ().enabled = false;
 			}
 
-			GameObject Player = GameObject.FindGameObjectWithTag ("Player");
 			if (Player.GetComponent<PlayerMovement> () != null) {
 				Player.GetComponent<PlayerMovement> ().enabled = false;
 			}
