@@ -16,7 +16,9 @@ public class CueItemPlayerActivate : MonoBehaviour {
 	bool TriggerActive;
 
 	public UnityEvent VoiceOverEnded;
+	public UnityEvent VoiceOverBegan;
     public Transform player;
+	public bool unpauseGameOnceSoundIsOver=true;
 
 	public void SetTriggerActive (bool val)
 	{ TriggerActive = val;
@@ -28,26 +30,34 @@ public class CueItemPlayerActivate : MonoBehaviour {
 			if (!source.isPlaying) {
 				playing = false;
 
-				GameObject[] monsters = GameObject.FindGameObjectsWithTag("Monster");
 
-				for (int i = 0; i < monsters.Length; i++) {
-					monsters [i].GetComponent<Monster_Movement> ().enabled = true;
-				}
-
-				GameObject Player = GameObject.FindGameObjectWithTag ("Player");
-				if (Player.GetComponent<PlayerMovement> () != null) {
-					Player.GetComponent<PlayerMovement> ().enabled = true;
-				}
-
-				GameObject FL = GameObject.FindGameObjectWithTag ("Flashlight");
-				if (FL.GetComponent<FlashLightMovement> () != null) {
-					FL.GetComponent<FlashLightMovement> ().enabled = true;
-				}
 
 				VoiceOverEnded.Invoke ();
+				if (unpauseGameOnceSoundIsOver) {
+					ResumeActivity ();
+				}
 			}
 		}
     }
+
+	public void ResumeActivity()
+	{
+		GameObject[] monsters = GameObject.FindGameObjectsWithTag("Monster");
+
+		for (int i = 0; i < monsters.Length; i++) {
+			monsters [i].GetComponent<Monster_Movement> ().enabled = true;
+		}
+
+		GameObject Player = GameObject.FindGameObjectWithTag ("Player");
+		if (Player.GetComponent<PlayerMovement> () != null) {
+			Player.GetComponent<PlayerMovement> ().enabled = true;
+		}
+
+		GameObject FL = GameObject.FindGameObjectWithTag ("Flashlight");
+		if (FL.GetComponent<FlashLightMovement> () != null) {
+			FL.GetComponent<FlashLightMovement> ().enabled = true;
+		}
+	}
     
 	void OnTriggerStay(Collider col)
 	{ 
@@ -59,6 +69,7 @@ public class CueItemPlayerActivate : MonoBehaviour {
 			alreadyPlayed=true;
 			playing = true;
 			source.Play ();
+
 
             GameObject Player = GameObject.FindGameObjectWithTag("Player");
             Player.GetComponent<PlayerPhaseTracker>().OpenFirstDoor();
@@ -78,6 +89,8 @@ public class CueItemPlayerActivate : MonoBehaviour {
 			if (FL.GetComponent<FlashLightMovement> () != null) {
 				FL.GetComponent<FlashLightMovement> ().enabled = false;
 			}
+
+			VoiceOverBegan.Invoke ();
 		}
 	}
     

@@ -12,10 +12,11 @@ public class title_screen_controller : MonoBehaviour {
 
 	public GameObject fadeOutQuad;
 	Color fadeOutColor;
+	bool already_pressed=false;
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonUp("Submit"))
-		{ 
+		if ((Input.GetButtonUp("Submit"))&&(!already_pressed))
+		{  already_pressed = true;
 			iTween.ColorTo (fadeOutQuad, iTween.Hash ("color", fadeOutColor, "time", 2, "oncomplete", "LoadNextScene","oncompletetarget",this.gameObject));
 		}
 	}
