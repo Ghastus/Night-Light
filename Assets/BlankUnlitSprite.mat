@@ -7,17 +7,14 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: BlankUnlitSprite
-<<<<<<< HEAD
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-=======
-  m_Shader: {fileID: 10751, guid: 0000000000000000f000000000000000, type: 0}
->>>>>>> d910fc9921b2e683fcf5a5dc2e462fd58e78db2e
   m_ShaderKeywords: _ALPHATEST_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -43,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e059d3a74ebda55458082c17bc26ce53, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
