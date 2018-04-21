@@ -10,7 +10,7 @@ public class LightFreezeMonster : MonoBehaviour {
 			
 	}
 	Monster_Movement MM;
-    public float mouseDistanceToFreeze = 0.5f;
+    public float mouseDistanceToFreeze = 0.1f;
 	// Update is called once per frame
 	void Update () {
         
