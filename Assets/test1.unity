@@ -24528,8 +24528,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 402358848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.48799968, z: 1}
+  m_LocalPosition: {x: -0.19841886, y: -0.615, z: 0}
+  m_LocalScale: {x: 1, y: 0.86009926, z: 1}
   m_Children: []
   m_Father: {fileID: 1613213874}
   m_RootOrder: 2
@@ -68170,7 +68170,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1151488507}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.7, y: -23, z: -2.81}
+  m_LocalPosition: {x: -2.7, y: -23, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 427272619}
@@ -72143,6 +72143,10 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 288624368}
+    - target: {fileID: 1222888750966296, guid: 375c5a26f3fcb7a49adbe33a2cad0cce, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 375c5a26f3fcb7a49adbe33a2cad0cce, type: 2}
   m_IsPrefabParent: 0
@@ -85800,7 +85804,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1447078283}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -23.77, y: 6, z: 0}
+  m_LocalPosition: {x: -24.03, y: 6, z: 0}
   m_LocalScale: {x: 1.0000005, y: 5.0702987, z: 1}
   m_Children: []
   m_Father: {fileID: 1863145205}
@@ -89960,7 +89964,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1512280403
 Transform:
   m_ObjectHideFlags: 0
@@ -112642,7 +112646,7 @@ MonoBehaviour:
   wayPoint: {fileID: 427272619}
   idle_speed: 0.03
   chasing_speed: 0.1
-  chaseDistance: 14
+  chaseDistance: 10
 --- !u!114 &1920775539
 MonoBehaviour:
   m_ObjectHideFlags: 0
