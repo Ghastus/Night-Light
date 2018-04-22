@@ -41,6 +41,7 @@ public class CueItemDisplay : MonoBehaviour {
 
 		CIPA = GetComponent<CueItemPlayerActivate> ();
 		if (CIPA==null)
+		if (transform.parent!=null)
 		foreach (Transform child in transform.parent) {
 				Debug.Log ("I found it!2");
 			CIPA = child.GetComponent<CueItemPlayerActivate> (); 
@@ -54,6 +55,7 @@ public class CueItemDisplay : MonoBehaviour {
 			CIPA.VoiceOverEnded.AddListener(AllowDismissal);
 			CIPA.unpauseGameOnceSoundIsOver = false;
 		}
+			
 	}
 	
 	// Update is called once per frame
