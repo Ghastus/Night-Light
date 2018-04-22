@@ -22,7 +22,7 @@ public class FlashLightMovement : MonoBehaviour {
 		transform.position = position;
 
         //changes radius of light based on player distance
-        lightDistance = Vector3.Distance(transform.position, player.position) * 10;
+       /* lightDistance = Vector3.Distance(transform.position, player.position) * 10;
         if (lightDistance >= 60)
         {
             flashlight.spotAngle = 0;
@@ -31,6 +31,6 @@ public class FlashLightMovement : MonoBehaviour {
         {
             flashlight.spotAngle = 60 - lightDistance;
         }
-        
+        */
     }
 }
