@@ -11,6 +11,7 @@ TagManager:
   - Phase4Door
   - Phase5Door
   - Phase1Door
+  - OpenDoors
   layers:
   - Default
   - TransparentFX

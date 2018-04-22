@@ -8,7 +8,7 @@ public class PlayerPhaseTracker : MonoBehaviour {
 
 	int ActivatedCuesCount=-1;
     GameObject[] Doors;
-
+    public Transform openDoorsParent;
     public int Phase {
 		get {
 			return ((ActivatedCuesCount / 2) + 1);
@@ -21,8 +21,8 @@ public class PlayerPhaseTracker : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
-		
-	}
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -33,11 +33,13 @@ public class PlayerPhaseTracker : MonoBehaviour {
     {
         
         Doors = GameObject.FindGameObjectsWithTag("Phase1Door");
+        
         for (int i = 0; i < Doors.Length; i++)
         {
             Doors[i].SetActive(false);
         }
-        
+        openDoorsParent.GetChild(Phase-1).gameObject.SetActive(true);
+
     }
 	public void CheckDoors()
 	{
@@ -46,24 +48,28 @@ public class PlayerPhaseTracker : MonoBehaviour {
 			for (int i = 0; i < Doors.Length; i++) {
 				Doors [i].SetActive (false);
 			}
-		}
+            openDoorsParent.GetChild(Phase - 1).gameObject.SetActive(true);
+        }
 		if (Phase == 3) {
 			Doors = GameObject.FindGameObjectsWithTag ("Phase3Door");
 			for (int i = 0; i < Doors.Length; i++) {
 				Doors [i].SetActive (false);
 			}
-		}
+            openDoorsParent.GetChild(Phase - 1).gameObject.SetActive(true);
+        }
 		if (Phase == 4) {
 			Doors = GameObject.FindGameObjectsWithTag ("Phase4Door");
 			for (int i = 0; i < Doors.Length; i++) {
 				Doors [i].SetActive (false);
 			}
-		}
+            openDoorsParent.GetChild(Phase - 1).gameObject.SetActive(true);
+        }
 		if (Phase == 5) {
 			Doors = GameObject.FindGameObjectsWithTag ("Phase5Door");
 			for (int i = 0; i < Doors.Length; i++) {
 				Doors [i].SetActive (false);
 			}
-		}
+            openDoorsParent.GetChild(Phase - 1).gameObject.SetActive(true);
+        }
 	}
 }
