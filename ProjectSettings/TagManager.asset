@@ -12,14 +12,8 @@ TagManager:
   - Phase5Door
   - Phase1Door
   - OpenDoors
-<<<<<<< HEAD
   - BossCamera
   - Boss
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
->>>>>>> 3ae505a00fa4574d1987e199c709041eab5f2e70
   layers:
   - Default
   - TransparentFX
