@@ -8,20 +8,13 @@ public class MonsterPlayAnimation : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Play ();
+		PlayAnimation anim = GetComponent<PlayAnimation> ();
+		anim.AnimationPlay (MyAnim);
 			
 	}
 	public AnimationObject MyAnim;
 
 
-
-	public void Play()
-	{
-		
-		PlayAnimation anim = GetComponent<PlayAnimation> ();
-		anim.AnimationStop ();
-		anim.AnimationPlay (MyAnim);
-	}
 
 
 }
