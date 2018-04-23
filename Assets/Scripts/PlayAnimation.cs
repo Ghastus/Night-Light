@@ -28,12 +28,6 @@ public class PlayAnimation : MonoBehaviour {
 		StartCoroutine ("AnimationIterate");
 	}
 
-	public void AnimationStop ()
-	{
-		currentAnimation = null;
-		StopAllCoroutines ();
-	}
-
 	IEnumerator AnimationIterate ()
 	{	
 		while ((mat!=null)&&(currentAnimation!=null)) {
