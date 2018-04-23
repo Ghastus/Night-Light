@@ -12,6 +12,8 @@ TagManager:
   - Phase5Door
   - Phase1Door
   - OpenDoors
+  - BossCamera
+  - Boss
   layers:
   - Default
   - TransparentFX
