@@ -45,9 +45,7 @@ public class CueItemPlayerActivate : MonoBehaviour {
 		GameObject[] monsters = GameObject.FindGameObjectsWithTag("Monster");
 
 		for (int i = 0; i < monsters.Length; i++) {
-			if (monsters [i].GetComponent<Monster_Movement> () != null) {
-				monsters [i].GetComponent<Monster_Movement> ().enabled = true;
-			}
+			monsters [i].GetComponent<Monster_Movement> ().enabled = true;
 		}
 
 		GameObject Player = GameObject.FindGameObjectWithTag ("Player");
@@ -80,9 +78,7 @@ public class CueItemPlayerActivate : MonoBehaviour {
 
 			Debug.Log ("Monsters :"+monsters.Length);
 			for (int i = 0; i < monsters.Length; i++) {
-				if (monsters [i].GetComponent<Monster_Movement> () != null) {
-					monsters [i].GetComponent<Monster_Movement> ().enabled = false;
-				}
+				monsters [i].GetComponent<Monster_Movement> ().enabled = false;
 			}
 
 			if (Player.GetComponent<PlayerMovement> () != null) {

@@ -6,43 +6,19 @@ public class FlashLightMovement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
-		SetPositionToPlayerPosition ();
-		//Cursor.lockState = true;
-		Cursor.visible = false;
-		Door_teleport[] all_the_doors = GameObject.FindObjectsOfType<Door_teleport> ();
-		foreach (Door_teleport DT in all_the_doors) {
-			DT.OnRoomEnter.AddListener (SetPositionToPlayerPosition);
-		}
-
-
+        flashlight = transform.GetChild(0).GetComponent<Light>();
 	}
 
 	public Transform player;
     Light flashlight;
     float lightDistance;
-
-	public void SetPositionToPlayerPosition()
-	{SetPosition (player.position);
-	}
-
-	public void SetPosition(Vector3 Pos)
-	{
-		Pos.z = 0;
-		transform.position = Pos;
-	}
 	// Update is called once per frame
 	void Update () {
-		////Base on Mouse position
-		//Vector3 position = new Vector3 (Input.mousePosition.x,
-		//	                   Input.mousePosition.y, 12);
-		//
-		//position =Camera.main.ScreenToWorldPoint(position);
-		//position.z = 0;
-
-		Vector3 position = transform.position;
-		position.x += Input.GetAxis ("Mouse X");
-		position.y += Input.GetAxis ("Mouse Y");
+		Vector3 position = new Vector3 (Input.mousePosition.x,
+			                   Input.mousePosition.y, 12);
+		
+		position =Camera.main.ScreenToWorldPoint(position);
+		position.z = 0;
 		transform.position = position;
 
         //changes radius of light based on player distance
