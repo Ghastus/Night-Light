@@ -22,7 +22,14 @@ public class Door_teleport : MonoBehaviour {
 		if (col.gameObject.tag == "Player") {
 			col.gameObject.transform.position = destination.position;
 			Camera.main.transform.position = camera_destination.position;
-
+            if(camera_destination.name == "BossCamera")
+            {
+                Camera.main.orthographicSize = 15f;
+            }
+            else
+            {
+                Camera.main.orthographicSize = 6f;
+            }
 		}
 	}
 }

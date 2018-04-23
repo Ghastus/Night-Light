@@ -14,18 +14,21 @@ public class CueItemDisplay : MonoBehaviour {
 	GameObject FadeInBackground;
 	GameObject IllustrationDisplay;
 	GameObject TextDisplay;
+	GameObject BlinkingArrow;
 	CueItemPlayerActivate CIPA;
 
 	TextMesh CurrentText;
 	Color FadedInColor;
 	Color FadedOutColor;
 	bool allow_dismissal;
+	bool isActive=false;
 	// Use this for initialization
 	void Start () {
 		FadeInOverlay = transform.Find ("FadeInOverlay").gameObject;
 		FadeInBackground = transform.Find ("FadeInBackground").gameObject;
 		IllustrationDisplay = transform.Find ("IllustrationDisplay").gameObject;
 		TextDisplay = transform.Find ("TextDisplay").gameObject;
+		BlinkingArrow = transform.Find ("BlinkingArrow").gameObject;
 
 		CurrentText = TextDisplay.GetComponent<TextMesh> ();
 
@@ -33,6 +36,8 @@ public class CueItemDisplay : MonoBehaviour {
 		FadeInBackground.SetActive (false);
 		IllustrationDisplay.SetActive (false);
 		TextDisplay.SetActive (false);
+		BlinkingArrow.SetActive (false);
+
 		FadedInColor = new Color (0, 0, 0, 1);
 		FadedOutColor = new Color (0, 0, 0, 0);
 
@@ -43,29 +48,53 @@ public class CueItemDisplay : MonoBehaviour {
 		if (CIPA==null)
 		if (transform.parent!=null)
 		foreach (Transform child in transform.parent) {
-				Debug.Log ("I found it!2");
 			CIPA = child.GetComponent<CueItemPlayerActivate> (); 
 			if (CIPA != null)
 				break;
 		}
 
 		if (CIPA!=null) {
-			Debug.Log ("I found it!3");
 			CIPA.VoiceOverBegan.AddListener(BeginDisplay);
 			CIPA.VoiceOverEnded.AddListener(AllowDismissal);
 			CIPA.unpauseGameOnceSoundIsOver = false;
 		}
 			
+		//For debugging
+		//BeginDisplay ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (!isActive) {
+			return;
+		}
+	//	if (Input.GetKeyUp (KeyCode.A)) {
+	//		Debug.Log (""+current_line+","+allow_dismissal+","+BlinkingArrow.activeSelf);
+	//	}
+
+		if ((current_line < LinesOfText.Length - 1) ||
+			((current_line == (LinesOfText.Length - 1)) && (allow_dismissal))) {
+			if (!BlinkingArrow.activeSelf) {
+				Debug.Log("Show the arrow!");
+				BlinkingArrow.SetActive (true);
+				BlinkingArrow.GetComponent<MonsterPlayAnimation> ().Play ();
+			}
+		} else {
+			if (BlinkingArrow.activeSelf) {
+				BlinkingArrow.SetActive (false);
+			}
+		}
+				
+
+		
 
 		if ((Input.GetButtonUp ("Submit"))||(Input.GetMouseButtonUp(0))) {
 
 			if (current_line<LinesOfText.Length-1) {
 				current_line++;
 				CurrentText.text = LinesOfText [current_line];
+				BlinkingArrow.SetActive (false);
 			}
 			else if (allow_dismissal)
 			{
@@ -89,7 +118,7 @@ public class CueItemDisplay : MonoBehaviour {
 	}
 	void Display ()
 	{
-		Debug.Log ("Display!");
+		isActive = true;
 		FadeInBackground.SetActive (true);
 		IllustrationDisplay.SetActive (true);
 		IllustrationDisplay.GetComponent<Renderer> ().material.mainTexture = illustration;
@@ -106,9 +135,11 @@ public class CueItemDisplay : MonoBehaviour {
 
 	void EndDisplay ()
 	{
+		isActive = false;
 		FadeInBackground.SetActive (false);
 		IllustrationDisplay.SetActive (false);
 		TextDisplay.SetActive (false);
+		BlinkingArrow.SetActive (false);
 		iTween.ColorTo (FadeInOverlay, iTween.Hash ("color", FadedOutColor, "time", 0.25f ));
 		allow_dismissal = false;
 		if (CIPA != null) {
