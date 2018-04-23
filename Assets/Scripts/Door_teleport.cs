@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Door_teleport : MonoBehaviour {
 
@@ -16,12 +17,14 @@ public class Door_teleport : MonoBehaviour {
 
 	public Transform destination;
 	public Transform camera_destination;
+	public UnityEvent OnRoomEnter;
 
 	void OnTriggerEnter (Collider col)
 	{
 		if (col.gameObject.tag == "Player") {
 			col.gameObject.transform.position = destination.position;
 			Camera.main.transform.position = camera_destination.position;
+			OnRoomEnter.Invoke ();
             if(camera_destination.name == "BossCamera")
             {
                 Camera.main.orthographicSize = 15f;
