@@ -5426,10 +5426,14 @@ Transform:
   m_GameObject: {fileID: 111946266}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -2.76, y: -18.48, z: -10}
 =======
   m_LocalPosition: {x: -0.7996788, y: -2.595436, z: -10}
 >>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
+=======
+  m_LocalPosition: {x: -2.76, y: -18.48, z: -10}
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 721716632}
@@ -18390,13 +18394,15 @@ GameObject:
   - component: {fileID: 299724906}
   - component: {fileID: 299724905}
   m_Layer: 0
-<<<<<<< HEAD
   m_Name: Boss
   m_TagString: Untagged
+<<<<<<< HEAD
 =======
   m_Name: BossMonster
   m_TagString: Monster
 >>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
+=======
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18494,11 +18500,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 299724904}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: 6.200321, y: 5.904564, z: 2.1705055}
+<<<<<<< HEAD
 =======
   m_LocalPosition: {x: 7.200321, y: -4.095436, z: -0.5}
 >>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
+=======
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 721716632}
@@ -18530,13 +18538,15 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 300090911}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-<<<<<<< HEAD
   m_LocalPosition: {x: -0.7996788, y: -2.095436, z: 2.1705055}
   m_LocalScale: {x: 3.0372453, y: 1, z: 3.253247}
+<<<<<<< HEAD
 =======
   m_LocalPosition: {x: -0.62, y: -2, z: 0}
   m_LocalScale: {x: 3.0372453, y: 1, z: 3.2532432}
 >>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
+=======
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
   m_Children: []
   m_Father: {fileID: 721716632}
   m_RootOrder: 2
@@ -29637,10 +29647,13 @@ Transform:
 <<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 30
+<<<<<<< HEAD
 =======
   m_Father: {fileID: 335632739}
   m_RootOrder: 0
 >>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
+=======
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &463472341
 GameObject:
@@ -48270,10 +48283,14 @@ Transform:
   m_GameObject: {fileID: 721716631}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 32.29968, y: -15.904564, z: -2.1705055}
 =======
   m_LocalPosition: {x: 1, y: -30, z: 0}
 >>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
+=======
+  m_LocalPosition: {x: 32.29968, y: -15.904564, z: -2.1705055}
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2018546683}
@@ -48284,10 +48301,14 @@ Transform:
   - {fileID: 1887162204}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 35
 =======
   m_RootOrder: 24
 >>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
+=======
+  m_RootOrder: 35
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &722256451
 GameObject:
@@ -50683,10 +50704,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 31
 =======
   m_RootOrder: 30
 >>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
+=======
+  m_RootOrder: 31
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &750357963
 GameObject:
@@ -116684,10 +116709,14 @@ Transform:
   m_GameObject: {fileID: 1785534649}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -32.29968, y: 15.904564, z: 2.1705055}
 =======
   m_LocalPosition: {x: -32, y: 16, z: 0}
 >>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
+=======
+  m_LocalPosition: {x: -32.29968, y: 15.904564, z: 2.1705055}
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 404228203}
@@ -121096,10 +121125,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 28
 =======
   m_RootOrder: 29
 >>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
+=======
+  m_RootOrder: 28
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1883374110
 GameObject:
@@ -121397,11 +121430,15 @@ Transform:
   m_GameObject: {fileID: 1887162203}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
   m_LocalPosition: {x: -4.58, y: -12.17, z: -0.5}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 34
+<<<<<<< HEAD
 =======
   m_LocalPosition: {x: -0.73967934, y: 10.7645645, z: -0.5}
   m_LocalScale: {x: 2, y: 2, z: 2}
@@ -121409,6 +121446,8 @@ Transform:
   m_Father: {fileID: 721716632}
   m_RootOrder: 5
 >>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
+=======
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1887455263
 GameObject:
@@ -136732,6 +136771,7 @@ MeshFilter:
   m_GameObject: {fileID: 2130559367}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &2131623920
 GameObject:
@@ -136807,6 +136847,8 @@ Transform:
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
+=======
+>>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
 --- !u!1 &2136485116
 GameObject:
   m_ObjectHideFlags: 0
