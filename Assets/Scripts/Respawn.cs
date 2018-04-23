@@ -12,7 +12,7 @@ public class Respawn : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "Monster" || col.gameObject.tag == "Boss")
+        if (col.gameObject.tag == "Monster")
         {
             transform.position = respawn.position;
             Camera.main.transform.position = camera_destination.position;
