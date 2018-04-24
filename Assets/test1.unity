@@ -19207,6 +19207,7 @@ GameObject:
   - component: {fileID: 299724907}
   - component: {fileID: 299724906}
   - component: {fileID: 299724905}
+  - component: {fileID: 299724911}
   m_Layer: 0
   m_Name: BossMonster
   m_TagString: Boss
@@ -19315,6 +19316,22 @@ Transform:
   m_Father: {fileID: 721716632}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &299724911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 299724904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af64ff98178fb5348acc1b5b047cec05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashLightObject: {fileID: 99206446}
+  mouseDistanceToFreeze: 1
+  LightOffDuration: 0.3
+  LightOnDuration: 1
+  SlowDuration: 2
 --- !u!1 &300090911
 GameObject:
   m_ObjectHideFlags: 0
@@ -78010,7 +78027,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1178048222
 Transform:
   m_ObjectHideFlags: 0

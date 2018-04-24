@@ -33,4 +33,14 @@ public class BossMovement : MonoBehaviour {
         targetVector = _destination.transform.position;
         _navMeshAgent.SetDestination(targetVector);
     } 
+
+    public void DecreaseSpeed()
+    {
+        _navMeshAgent.speed -= 1;
+    }
+
+    public void IncreaseSpeed()
+    {
+        _navMeshAgent.speed += 1;
+    }
 }
