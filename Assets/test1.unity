@@ -1021,7 +1021,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 23801137}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7, y: 13.28, z: 0.1}
+  m_LocalPosition: {x: 7, y: 13.28, z: 0.3}
   m_LocalScale: {x: 1.1100005, y: 1.6000006, z: 1}
   m_Children:
   - {fileID: 1990748844}
@@ -4212,7 +4212,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 81840329}
   m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: 4, y: 0.95, z: 0.3}
+  m_LocalPosition: {x: 3.838, y: 0.942, z: 0}
   m_LocalScale: {x: 1.0977974, y: 1.146698, z: 1}
   m_Children: []
   m_Father: {fileID: 1083371047}
@@ -5354,11 +5354,7 @@ Transform:
   m_Children:
   - {fileID: 1888143898}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 29
-=======
-  m_RootOrder: 26
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &99206447
 MonoBehaviour:
@@ -5818,49 +5814,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 111946266}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: -0.7996788, y: -2.595436, z: -10}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_LocalPosition: {x: -0.7996788, y: -2.595436, z: -10}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-  m_LocalPosition: {x: -2.76, y: -18.48, z: -10}
-=======
-  m_LocalPosition: {x: -0.7996788, y: -2.595436, z: -10}
->>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
-=======
-  m_LocalPosition: {x: -2.76, y: -18.48, z: -10}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_LocalPosition: {x: -2.76, y: -18.48, z: -10}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_LocalPosition: {x: -2.76, y: -18.48, z: -10}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
-  m_LocalPosition: {x: -2.76, y: -18.48, z: -10}
->>>>>>> parent of a35462f... a
-=======
-  m_LocalPosition: {x: -2.76, y: -18.48, z: -10}
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
->>>>>>> 945d34aff191e3d077300f2aff07758e1c0498ef
-=======
-  m_LocalPosition: {x: -2.76, y: -18.48, z: -10}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 721716632}
@@ -6016,7 +5970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 112325757}
   m_Layer: 0
-  m_Name: CameraPosition
+  m_Name: BedRoomCameraPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6029,11 +5983,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 112325756}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.51, y: -0.02, z: -10}
+  m_LocalPosition: {x: -1, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &113210133
 GameObject:
@@ -14258,7 +14212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 242223654}
   m_Layer: 0
-  m_Name: CamPos
+  m_Name: BedroomCamPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14271,7 +14225,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 242223653}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.99143994, y: -0.16000009, z: -11}
+  m_LocalPosition: {x: 1, y: -0, z: -10}
   m_LocalScale: {x: -2.04576, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 367591265}
@@ -16196,7 +16150,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 269584295}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 3.93, y: 0, z: 0}
+  m_LocalPosition: {x: 3.765, y: 0, z: 0}
   m_LocalScale: {x: 1.2874993, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1083371047}
@@ -17669,7 +17623,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 286522483}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.5, y: 17, z: 0.3}
+  m_LocalPosition: {x: 2.5, y: 17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1592354729}
@@ -18000,17 +17954,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 288624363}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.5, y: -18.5, z: -0.5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 1, z: -0.5}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 1126116668}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 30
-=======
-  m_RootOrder: 27
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &288624369
 MonoBehaviour:
@@ -18825,7 +18775,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!65 &289465820
-<<<<<<< HEAD
 BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 65010121029725408, guid: bd895e1a55229364ab35537fffc5b0d0,
@@ -18925,274 +18874,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!33 &289599545
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 33311539300220472, guid: 3734cd6e9d90c1940a00355c3755b3f2,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 289599541}
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &290629545
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 290629546}
-  m_Layer: 0
-  m_Name: Closet
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &290629546
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 290629545}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.07, y: 0.94, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 200930894}
-  - {fileID: 1403044804}
-  - {fileID: 1104020718}
-  - {fileID: 1399997148}
-  - {fileID: 2023219613}
-  - {fileID: 1622625022}
-  m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 20
-=======
-<<<<<<< HEAD
-  m_RootOrder: 21
-<<<<<<< HEAD
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &290682030
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 290682031}
-  - component: {fileID: 290682034}
-  - component: {fileID: 290682033}
-  - component: {fileID: 290682032}
-  - component: {fileID: 290682035}
-  m_Layer: 8
-  m_Name: Cube (15)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &290682031
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 290682030}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.7996788, y: -1.5954361, z: 2.1705055}
-  m_LocalScale: {x: 5, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 614103325}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &290682030
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 290682031}
-  - component: {fileID: 290682034}
-  - component: {fileID: 290682033}
-  - component: {fileID: 290682032}
-  - component: {fileID: 290682035}
-  m_Layer: 8
-  m_Name: Cube (15)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &290682031
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 290682030}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.7996788, y: -1.5954361, z: 2.1705055}
-  m_LocalScale: {x: 5, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 614103325}
-  m_RootOrder: 15
->>>>>>> 945d34aff191e3d077300f2aff07758e1c0498ef
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of a35462f... a
---- !u!23 &290682032
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 290682030}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &290682033
-=======
->>>>>>> parent of 02a5f9b... Boss Room Update
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65010121029725408, guid: bd895e1a55229364ab35537fffc5b0d0,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 289465817}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &289465821
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 33478501521648578, guid: bd895e1a55229364ab35537fffc5b0d0,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 289465817}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &289599541
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1646388062559224, guid: 3734cd6e9d90c1940a00355c3755b3f2,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 289599542}
-  - component: {fileID: 289599545}
-  - component: {fileID: 289599544}
-  - component: {fileID: 289599543}
-  m_Layer: 0
-  m_Name: Quad
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &289599542
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4461676757525842, guid: 3734cd6e9d90c1940a00355c3755b3f2,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 289599541}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.0971422, y: 2.1140003, z: 0}
-  m_LocalScale: {x: 2.3216813, y: 1.2500482, z: 1}
-  m_Children: []
-  m_Father: {fileID: 200082115}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &289599543
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 23820149500632574, guid: 3734cd6e9d90c1940a00355c3755b3f2,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 289599541}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 0b102e51fd467c44180f42fa059797d5, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!64 &289599544
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 64109518914985164, guid: 3734cd6e9d90c1940a00355c3755b3f2,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 289599541}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-<<<<<<< HEAD
-  m_Shape: 1
-  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
-=======
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 6cb3e55... Broken commit
-=======
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
@@ -19267,7 +18948,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 02a5f9b... Boss Room Update
 --- !u!1 &291799975
 GameObject:
   m_ObjectHideFlags: 0
@@ -19527,41 +19207,10 @@ GameObject:
   - component: {fileID: 299724907}
   - component: {fileID: 299724906}
   - component: {fileID: 299724905}
+  - component: {fileID: 299724911}
   m_Layer: 0
-  m_Name: Cube (2)
-  m_TagString: Untagged
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
   m_Name: BossMonster
-<<<<<<< HEAD
   m_TagString: Boss
-=======
-  m_TagString: Monster
->>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19659,43 +19308,30 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 299724904}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 6.200321, y: 5.904564, z: 2.1705055}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
   m_LocalPosition: {x: 7.200321, y: -4.095436, z: -0.5}
->>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_LocalPosition: {x: 7.200321, y: -4.095436, z: 2.1705055}
->>>>>>> parent of 02a5f9b... Boss Room Update
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1178048222}
+  - {fileID: 486036431}
   m_Father: {fileID: 721716632}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &299724911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 299724904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af64ff98178fb5348acc1b5b047cec05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashLightObject: {fileID: 99206446}
+  mouseDistanceToFreeze: 1
+  LightOffDuration: 0.3
+  LightOnDuration: 1
+  SlowDuration: 2
 --- !u!1 &300090911
 GameObject:
   m_ObjectHideFlags: 0
@@ -19722,49 +19358,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 300090911}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-<<<<<<< HEAD
-  m_LocalPosition: {x: -0.62, y: -2, z: 0}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_LocalPosition: {x: -0.7996788, y: -2.095436, z: 2.1705055}
-<<<<<<< HEAD
-  m_LocalScale: {x: 3.0372453, y: 1, z: 3.253247}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
->>>>>>> 945d34aff191e3d077300f2aff07758e1c0498ef
   m_LocalPosition: {x: -0.62, y: -2, z: 0}
   m_LocalScale: {x: 3.0372453, y: 1, z: 3.2532432}
->>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
-  m_LocalPosition: {x: -0.7996788, y: -2.095436, z: 2.1705055}
-  m_LocalScale: {x: 3.0372453, y: 1, z: 3.253247}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
-  m_LocalScale: {x: 3.0372453, y: 1, z: 3.2532432}
->>>>>>> parent of 02a5f9b... Boss Room Update
   m_Children: []
   m_Father: {fileID: 721716632}
   m_RootOrder: 2
@@ -29499,7 +29094,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 434213695}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: -0.95, z: 0}
+  m_LocalPosition: {x: 3.814, y: -0.95, z: 0}
   m_LocalScale: {x: 1.0978005, y: 1.1467005, z: 1}
   m_Children: []
   m_Father: {fileID: 1083371047}
@@ -29868,7 +29463,6 @@ Transform:
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &440749135
-<<<<<<< HEAD
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1487633114337306, guid: b680cf33663ef2f429d642a4d3105285,
@@ -30033,8 +29627,6 @@ MeshFilter:
   m_GameObject: {fileID: 441488240}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &442888816
-=======
->>>>>>> parent of a35462f... a
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1487633114337306, guid: b680cf33663ef2f429d642a4d3105285,
@@ -31535,47 +31127,8 @@ Transform:
   m_LocalPosition: {x: -36.6, y: -16.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-<<<<<<< HEAD
   m_Father: {fileID: 335632739}
   m_RootOrder: 0
-=======
-<<<<<<< HEAD
-  m_Father: {fileID: 335632739}
-  m_RootOrder: 0
-=======
-<<<<<<< HEAD
-  m_Father: {fileID: 0}
-  m_RootOrder: 30
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
-  m_Father: {fileID: 335632739}
-  m_RootOrder: 0
->>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
->>>>>>> 945d34aff191e3d077300f2aff07758e1c0498ef
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &463472341
 GameObject:
@@ -32775,6 +32328,119 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 484763434}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &486036430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1540601337290070, guid: 8d1b9820e32d1461aa9f5823083d1bc8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 486036431}
+  - component: {fileID: 486036435}
+  - component: {fileID: 486036434}
+  - component: {fileID: 486036433}
+  - component: {fileID: 486036432}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &486036431
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4421037054674102, guid: 8d1b9820e32d1461aa9f5823083d1bc8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 486036430}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.0456812, y: 3.0655196, z: 2.23265}
+  m_Children: []
+  m_Father: {fileID: 299724910}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &486036432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114752103406061130, guid: 8d1b9820e32d1461aa9f5823083d1bc8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 486036430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395bb9714e3c08f4087856e21362ebe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &486036433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114436351970691906, guid: 8d1b9820e32d1461aa9f5823083d1bc8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 486036430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba4acc28084f4d4899a520ff5392423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyAnim:
+    frames:
+    - {fileID: 2800000, guid: 1d4e138fb09f0784b8ebc1dcd27aba3b, type: 3}
+    - {fileID: 2800000, guid: ced11c3f3e17feb448264ec172b5eed7, type: 3}
+    - {fileID: 2800000, guid: b8af5a3b31323954b849a52333fbd678, type: 3}
+    - {fileID: 2800000, guid: af47dbb3ff2fb28479eb2c34d8dc477e, type: 3}
+    - {fileID: 2800000, guid: 6c566ce71d4d20b44b7b5ba519318edd, type: 3}
+    - {fileID: 2800000, guid: bf643cc2b82667a4b847b5597b136294, type: 3}
+    - {fileID: 2800000, guid: 1e873cb3fad02bd4983403cf504c8d09, type: 3}
+    - {fileID: 2800000, guid: 1d4e138fb09f0784b8ebc1dcd27aba3b, type: 3}
+    - {fileID: 2800000, guid: e661f4e5b5e9e6e40807f198ff790995, type: 3}
+    framerate: 15
+--- !u!23 &486036434
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23403679522779576, guid: 8d1b9820e32d1461aa9f5823083d1bc8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 486036430}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f2ea59cf50092b941844bfecf078caec, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &486036435
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33430733597435510, guid: 8d1b9820e32d1461aa9f5823083d1bc8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 486036430}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &486605670
 GameObject:
   m_ObjectHideFlags: 0
@@ -39552,11 +39218,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 4915f4b9019a1ee41b95e800e76047ee, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: d741ac6ac2db1604eb8314acfc98d8c0, type: 2}
-<<<<<<< HEAD
   - m_RefCount: 40
-=======
-  - m_RefCount: 1
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
     m_Data: {fileID: 11400000, guid: 9708e6286fed68042914aec6f014d65a, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 25
@@ -39583,11 +39245,7 @@ Tilemap:
     m_Data: {fileID: 21300138, guid: 05d4485a5d80ef040b0bb4ca96a52e79, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300174, guid: 05d4485a5d80ef040b0bb4ca96a52e79, type: 3}
-<<<<<<< HEAD
   - m_RefCount: 40
-=======
-  - m_RefCount: 1
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
     m_Data: {fileID: 21300068, guid: 05d4485a5d80ef040b0bb4ca96a52e79, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 157
@@ -40188,7 +39846,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 557776057}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.82, y: -1.01, z: 0.3}
+  m_LocalPosition: {x: 5.867, y: -1.018, z: 0}
   m_LocalScale: {x: 3.5239506, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1083371047}
@@ -44655,7 +44313,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 620787119}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3199997, y: 20.61, z: 1}
+  m_LocalPosition: {x: -0.3199997, y: 20.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1592354729}
@@ -47762,12 +47420,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 672746034}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &678412562
-=======
 --- !u!1 &674483335
->>>>>>> parent of 02a5f9b... Boss Room Update
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1487633114337306, guid: b680cf33663ef2f429d642a4d3105285,
@@ -47957,11 +47610,6 @@ MeshRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 675716939}
   m_Enabled: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 02a5f9b... Boss Room Update
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -47997,112 +47645,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 675716939}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
---- !u!1 &678412562
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 678412563}
-  - component: {fileID: 678412566}
-  - component: {fileID: 678412565}
-  - component: {fileID: 678412564}
-  - component: {fileID: 678412567}
-  m_Layer: 8
-  m_Name: Cube (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &678412563
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 678412562}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.799679, y: -7.595436, z: 2.1705055}
-  m_LocalScale: {x: 3, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 614103325}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &678412564
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 678412562}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &678412565
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 678412562}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &678412566
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 678412562}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!208 &678412567
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 678412562}
-  m_Enabled: 1
->>>>>>> parent of a35462f... a
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
->>>>>>> parent of 02a5f9b... Boss Room Update
 --- !u!1 &679742167
 GameObject:
   m_ObjectHideFlags: 0
@@ -48124,7 +47666,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 679742167}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.3310603, y: 12.279882, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -48137,11 +47679,7 @@ Transform:
   - {fileID: 516072070}
   - {fileID: 144747048}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 28
-=======
-  m_RootOrder: 25
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &681513027
 GameObject:
@@ -50889,108 +50427,18 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 721716631}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: 1, y: -30, z: 0}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_LocalPosition: {x: 1, y: -30, z: 0}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-  m_LocalPosition: {x: 32.29968, y: -15.904564, z: -2.1705055}
-=======
-  m_LocalPosition: {x: 1, y: -30, z: 0}
->>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
-=======
-  m_LocalPosition: {x: 32.29968, y: -15.904564, z: -2.1705055}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_LocalPosition: {x: 32.29968, y: -15.904564, z: -2.1705055}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_LocalPosition: {x: 32.29968, y: -15.904564, z: -2.1705055}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
-  m_LocalPosition: {x: 32.29968, y: -15.904564, z: -2.1705055}
->>>>>>> parent of a35462f... a
-=======
-  m_LocalPosition: {x: 32.29968, y: -15.904564, z: -2.1705055}
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
->>>>>>> 945d34aff191e3d077300f2aff07758e1c0498ef
-=======
-  m_LocalPosition: {x: 32.29968, y: -15.904564, z: -2.1705055}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2018546683}
   - {fileID: 1785534650}
   - {fileID: 300090912}
   - {fileID: 299724910}
-<<<<<<< HEAD
   - {fileID: 111946267}
   - {fileID: 1887162204}
   - {fileID: 131888939}
   m_Father: {fileID: 0}
   m_RootOrder: 24
-=======
-<<<<<<< HEAD
-  - {fileID: 111946267}
-  - {fileID: 1887162204}
-=======
->>>>>>> parent of 02a5f9b... Boss Room Update
-  m_Father: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 24
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-  m_RootOrder: 35
-=======
-  m_RootOrder: 24
->>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
-=======
-  m_RootOrder: 35
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_RootOrder: 35
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_RootOrder: 35
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
-  m_RootOrder: 35
->>>>>>> parent of a35462f... a
-=======
-  m_RootOrder: 35
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
->>>>>>> 945d34aff191e3d077300f2aff07758e1c0498ef
-=======
-  m_RootOrder: 35
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &722256451
 GameObject:
@@ -53413,45 +52861,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 30
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-  m_RootOrder: 31
-=======
-  m_RootOrder: 30
->>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
-=======
-  m_RootOrder: 31
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_RootOrder: 31
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_RootOrder: 31
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
-  m_RootOrder: 31
->>>>>>> parent of a35462f... a
-=======
-  m_RootOrder: 31
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
->>>>>>> 945d34aff191e3d077300f2aff07758e1c0498ef
-=======
-  m_RootOrder: 31
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &750357963
 GameObject:
@@ -55726,11 +55136,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 786755010}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: 2}
-=======
-  m_LocalPosition: {x: 0.3310603, y: -12.279884, z: 2}
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 488343632}
@@ -66541,7 +65947,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 974420652}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.99, y: -0.03999996, z: -9.54}
+  m_LocalPosition: {x: 1, y: 0, z: -10}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 355032730}
@@ -68958,90 +68364,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1016335099}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1016335099
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1016335100}
-  - component: {fileID: 1016335103}
-  - component: {fileID: 1016335102}
-  - component: {fileID: 1016335101}
-  m_Layer: 8
-  m_Name: Cube (21)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1016335100
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1016335099}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35, y: -20.5, z: 0}
-  m_LocalScale: {x: 4, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1785534650}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1016335101
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1016335099}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 5be8707942adf6d41a6abfe48fdc4d12, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &1016335102
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1016335099}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1016335103
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1016335099}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1016965084
 GameObject:
   m_ObjectHideFlags: 0
@@ -69228,7 +68550,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1024358400}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 5.91, y: 1, z: 0.3}
+  m_LocalPosition: {x: 5.91, y: 1, z: 0}
   m_LocalScale: {x: 3.5239499, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1083371047}
@@ -78688,6 +78010,92 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177578597}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1178048221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1178048222}
+  - component: {fileID: 1178048225}
+  - component: {fileID: 1178048224}
+  - component: {fileID: 1178048223}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1178048222
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1178048221}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.2700194, y: 1.9890605, z: 1}
+  m_Children: []
+  m_Father: {fileID: 299724910}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1178048223
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1178048221}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f2ea59cf50092b941844bfecf078caec, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &1178048224
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1178048221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1178048225
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1178048221}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1180620107
 GameObject:
   m_ObjectHideFlags: 0
@@ -91255,9 +90663,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 66
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 6
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -91279,12 +90687,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1375290692}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29, y: -18, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: -10}
+  m_LocalScale: {x: 2.575, y: 1.8499997, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1376581059
 GameObject:
@@ -104820,7 +104228,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1592354728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.3}
+  m_LocalPosition: {x: 0, y: 0, z: 0.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1932497759}
@@ -106145,7 +105553,6 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 33000011594524242, guid: 700f7dcfe5430406faac77d4eac70cd1,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1609555869}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1609679778
@@ -106235,8 +105642,6 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 33043159040070442, guid: 6f901f6e2824d0f40943d385df60847f,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-=======
->>>>>>> parent of a35462f... a
   m_GameObject: {fileID: 1609679778}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1611654331
@@ -106521,7 +105926,6 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1613292621}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: 1.9, y: -0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -106615,15 +106019,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1613776235}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-=======
-  m_LocalPosition: {x: -0.3310603, y: 12.279884, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 786755011}
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
 --- !u!1 &1616257747
 GameObject:
   m_ObjectHideFlags: 0
@@ -121768,49 +121163,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1785534649}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: -32, y: 16, z: 0}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_LocalPosition: {x: -32, y: 16, z: 0}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-  m_LocalPosition: {x: -32.29968, y: 15.904564, z: 2.1705055}
-=======
-  m_LocalPosition: {x: -32, y: 16, z: 0}
->>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
-=======
-  m_LocalPosition: {x: -32.29968, y: 15.904564, z: 2.1705055}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_LocalPosition: {x: -32.29968, y: 15.904564, z: 2.1705055}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_LocalPosition: {x: -32.29968, y: 15.904564, z: 2.1705055}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
-  m_LocalPosition: {x: -32.29968, y: 15.904564, z: 2.1705055}
->>>>>>> parent of a35462f... a
-=======
-  m_LocalPosition: {x: -32.29968, y: 15.904564, z: 2.1705055}
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
->>>>>>> 945d34aff191e3d077300f2aff07758e1c0498ef
-=======
-  m_LocalPosition: {x: -32.29968, y: 15.904564, z: 2.1705055}
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 404228203}
@@ -123333,158 +122686,8 @@ Transform:
   - {fileID: 265472745}
   - {fileID: 1384104943}
   m_Father: {fileID: 335632739}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  m_RootOrder: 1
-<<<<<<< HEAD
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!1 &1811657308
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1811657309}
-  - component: {fileID: 1811657312}
-  - component: {fileID: 1811657311}
-  - component: {fileID: 1811657310}
-  - component: {fileID: 1811657313}
-  m_Layer: 8
-  m_Name: Cube (18)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1811657309
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1811657308}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.2996788, y: -4.595436, z: 2.1705055}
-  m_LocalScale: {x: 2, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 614103325}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1811657308
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1811657309}
-  - component: {fileID: 1811657312}
-  - component: {fileID: 1811657311}
-  - component: {fileID: 1811657310}
-  - component: {fileID: 1811657313}
-  m_Layer: 8
-  m_Name: Cube (18)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1811657309
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1811657308}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.2996788, y: -4.595436, z: 2.1705055}
-  m_LocalScale: {x: 2, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 614103325}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of a35462f... a
---- !u!23 &1811657310
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1811657308}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &1811657311
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1811657308}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1811657312
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1811657308}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!208 &1811657313
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1811657308}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
-=======
->>>>>>> 945d34aff191e3d077300f2aff07758e1c0498ef
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 6cb3e55... Broken commit
-=======
->>>>>>> parent of 02a5f9b... Boss Room Update
 --- !u!1 &1812531043
 GameObject:
   m_ObjectHideFlags: 0
@@ -126841,49 +126044,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 31
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 29
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-  m_RootOrder: 28
-=======
-  m_RootOrder: 29
->>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
-=======
-  m_RootOrder: 28
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_RootOrder: 28
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
-  m_RootOrder: 28
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
-  m_RootOrder: 28
->>>>>>> parent of a35462f... a
-=======
-  m_RootOrder: 28
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
->>>>>>> 945d34aff191e3d077300f2aff07758e1c0498ef
-=======
-  m_RootOrder: 28
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1883374110
 GameObject:
@@ -127167,7 +126328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1887162204}
   m_Layer: 0
-  m_Name: Player Position
+  m_Name: Crypt Player Position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127180,83 +126341,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1887162203}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: -0.73967934, y: 10.7645645, z: -0.5}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 721716632}
   m_RootOrder: 5
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_LocalPosition: {x: -0.73967934, y: 10.7645645, z: -0.5}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_Children: []
-  m_Father: {fileID: 721716632}
-  m_RootOrder: 5
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-  m_LocalPosition: {x: -4.58, y: -12.17, z: -0.5}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 34
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
-  m_LocalPosition: {x: -0.73967934, y: 10.7645645, z: -0.5}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_Children: []
-  m_Father: {fileID: 721716632}
-  m_RootOrder: 5
->>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
->>>>>>> 945d34aff191e3d077300f2aff07758e1c0498ef
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
->>>>>>> 7d9d546b2f73e9f305d097421062c4f012da1687
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1887455263
 GameObject:
@@ -128798,8 +127887,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1913380813}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &1913659435
 GameObject:
   m_ObjectHideFlags: 0
@@ -128966,7 +128053,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1916868485}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> parent of 02a5f9b... Boss Room Update
 --- !u!1 &1917869031
 GameObject:
   m_ObjectHideFlags: 0
@@ -142582,17 +141668,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2130559367}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
 --- !u!1 &2131623920
 GameObject:
   m_ObjectHideFlags: 0
@@ -142609,7 +141684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!124 &2131623921
 Behaviour:
   m_ObjectHideFlags: 0
@@ -142664,24 +141739,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> c49fbf7249ad2b8045ab888f1a52ac4b6e7b1a6e
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
-<<<<<<< HEAD
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of a35462f... a
-=======
->>>>>>> parent of 6cb3e55... Broken commit
-=======
->>>>>>> parent of 1ebf329... Merge branch 'master' of https://github.com/Ghastus/Night-Light
 --- !u!1 &2136485116
 GameObject:
   m_ObjectHideFlags: 0
