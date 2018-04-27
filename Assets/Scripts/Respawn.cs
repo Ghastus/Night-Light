@@ -8,6 +8,12 @@ public class Respawn : MonoBehaviour {
     public Transform respawn;
     public Transform camera_destination;
 	public AudioSource death;
+    public BossPhaseTracker BPT;
+
+    void Start()
+    {
+        BPT.GetComponent<BossPhaseTracker>();
+    }
 
 
     void OnCollisionEnter(Collision col)
@@ -19,6 +25,14 @@ public class Respawn : MonoBehaviour {
             Camera.main.orthographicSize = 6f;
             GetComponent<PlayerPhaseTracker>().CheckDoors();
 			death.Play();
+            if(col.gameObject.tag == "Boss")
+            {
+                GameObject boss = GameObject.FindGameObjectWithTag("Boss");
+                boss.GetComponent<BossMovement>().enabled = false;
+                BPT.resetMaze();
+                //BPT.resetTriggers();
+                BPT.resetBossPhase();
+            }
         }
     }
 
